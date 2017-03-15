@@ -1,0 +1,17 @@
+{
+  "name": "express-socketio",
+  "version": "1.0.0",
+  "description": "express socket io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shak hassan",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.3",
+    "socket.io": "^1.7.3"
+  }
+}
