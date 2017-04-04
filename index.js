@@ -24,6 +24,21 @@ app.get('/', function(req, res){
   res.sendFile(__dirname + '/index.html');
 });
 
+app.get('/dashboard', function(req, res){
+  // res.send('<h1>Hello world</h1>');
+  res.sendFile(__dirname + '/dashboard.html');
+});
+
+app.get('/collection', function(req, res){
+  // res.send('<h1>Hello world</h1>');
+  res.sendFile(__dirname + '/collection.html');
+});
+
+app.get('/team', function(req, res){
+  // res.send('<h1>Hello world</h1>');
+  res.sendFile(__dirname + '/team.html');
+});
+
 app.get('/test', function(req, res){
   // res.send('<h1>Hello world</h1>');
 

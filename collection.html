@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <title>Vega : Collection</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a class="navbar-brand" href="dashboard">
+            <img href="https://www.dropbox.com/s/5vkqfs4r61o12u4/vega-logo.png" width="60" height="30" alt="VEGA">
+            <img src="bootstrap-solid.svg" width="60" height="30" alt="VEGA">
+          </a> -->
+          <a class="navbar-brand" href="http://disputebills.com">
+            <img src="http://i.imgur.com/R418iqe.png"" alt="Dispute Bills" width="60" height="30">
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="dashboard">Feed</a></li>
+            <li class="active"><a href="collection">Collection</a><span class="sr-only">(current)</span></li>
+            <li><a href="team">Team</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">John Doe <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Setting</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Sign Out</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <!-- <div class="page-header">
+      <h3>Activity Feed <small>Track your activity</small></h3>
+    </div> -->
+
+    <div class="container">
+      <div class="page-header">
+        <h3>Collection <small>All your collection</small></h3>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <ul class="nav nav-pills">
+            <li role="presentation" class="active"><a href="#">Team</a></li>
+            <li role="presentation"><a href="#">Private</a></li>
+          </ul>
+
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Collection</th>
+                <th>Description</th>
+                <th>Status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Customer API</td>
+                <td>all API related to customers</td>
+                <td>
+                  <span class="label label-success">Deployed!</span>
+                </td>
+                <td>
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      View Doc. <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">View Doc.</a></li>
+                      <li><a href="#">Update</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Delete</a></li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>ProjectX Global API</td>
+                <td>Main API for existing client ProjectX</td>
+                <td>
+                  <span class="label label-default">WIP</span>
+                </td>
+                <td>
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      View Doc. <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">View Doc.</a></li>
+                      <li><a href="#">Update</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Delete</a></li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Internal</td>
+                <td>Sandbox for new engineers!</td>
+                <td>
+                  <span class="label label-default">WIP</span>
+                </td>
+                <td>
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      View Doc. <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">View Doc.</a></li>
+                      <li><a href="#">Update</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Delete</a></li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+</html>
