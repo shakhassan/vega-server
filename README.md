@@ -14,16 +14,23 @@ Components
 
 Getting Started
 ---------------
-```
-#Get the latest snapshot
+
+Get the latest snapshot
+```bash
 git clone https://github.com/shakhassan/vega-server.git
+```
 
-#Change directory
+Change directory
+```bash
 cd vega-server
+```
 
-#Install NPM dependencies
+Install NPM dependencies
+```bash
 npm install
+```
 
-#Then simply start app
+Then simply start app
+```bash
 node index.js
 ```
