@@ -8,9 +8,9 @@ An API to sync data from Vega App (https://github.com/shakhassan/vega) to cloud.
 Components
 ----------
 
-1- Express
-2- Socket.io
-3- MongoDB
+1. Express
+1. Socket.io
+1. MongoDB
 
 Getting Started
 ---------------
@@ -27,4 +27,3 @@ npm install
 #Then simply start app
 node index.js
 ```
-
