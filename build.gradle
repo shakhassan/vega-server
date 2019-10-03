@@ -29,3 +29,12 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 */
+
+plugins {
+  id 'com.sourcemuse.mongo' version '1.0.7'
+}
+
+
+task integrationTest {
+    runWithMongoDb = true
+}
