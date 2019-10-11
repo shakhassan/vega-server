@@ -25,12 +25,7 @@ Change directory
 cd vega-server
 ```
 
-Install NPM dependencies
+Run gradle 'run' task
 ```bash
-npm install
-```
-
-Then simply start app
-```bash
-node index.js
+./gradlew run
 ```
