@@ -37,5 +37,6 @@ plugins {
 
 task run(type: NodeTask) {
     runWithMongoDb = true
+    println 'you may browse to the said url, regardless the progress specified below'
     script = file('index.js')
 }
